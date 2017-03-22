@@ -1,5 +1,6 @@
 /**
- * Created by ImageDBUser on 2017/3/21.
+ * Created by Mason Jackson on 2017/3/21.
+ * 获取url的query对象
  */
 function getQueryObject(url) {
     url=url||window.location.href;

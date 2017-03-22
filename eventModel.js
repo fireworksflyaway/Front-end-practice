@@ -1,5 +1,6 @@
 /**
- * Created by ImageDBUser on 2017/3/22.
+ * Created by Mason Jackson on 2017/3/22.
+ * 事件模型
  */
 function Emitter() {
     this.events={};

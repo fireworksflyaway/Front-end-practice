@@ -1,5 +1,6 @@
 /**
- * Created by ImageDBUser on 2017/3/22.
+ * Created by Mason Jackson on 2017/3/22.
+ * 手写事件委托demo
  */
 var element=document.getElementsByTagName('div')[0];
 function delegate(element, type, tagName, callback ) {
