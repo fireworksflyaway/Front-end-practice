@@ -13,10 +13,10 @@ function delegate(element, type, tagName, callback ) {
         e=e||window.event;
         var target=e.target||e.srcElement;
         if(target.tagName.toLowerCase()===tagName.toLowerCase()&&callback)
-            callback.call(null, target);
+            callback.call(target, e);
     }
 }
 
-delegate(element,'click','li',(target)=>{
-    alert(target.textContent);
+delegate(element,'click','li',(e)=>{
+    alert(e.target.textContent);
 })
