@@ -1,0 +1,13 @@
+#box{
+    width:500px;
+    height: 500px;
+    background-color: aliceblue;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#content{
+    background-color: bisque;
+}
