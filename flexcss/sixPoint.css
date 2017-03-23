@@ -41,15 +41,11 @@ body{
     justify-content: space-around;
 }
 
-.box4{
+.box4,.box5,.box6{
     flex-direction: column;
     justify-content: space-around;
 }
 
-.box5{
-    flex-direction: column;
-    justify-content: space-around;
-}
 
 .pointCenter{
     align-self: center;
